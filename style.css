@@ -1,0 +1,52 @@
+/** Static elements **/
+
+#game-board {
+    margin: 20px auto;
+}
+
+.tile-wall {
+    background-image: url(brick-wall.png);
+    background-size: contain;
+}
+
+.tile-space {
+    background-color: gainsboro;
+}
+
+.tile-goal {
+    background-image: url(goal.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: gainsboro;
+    
+}
+
+/** Moving elements **/
+
+.entity-player {
+    background-image: url(player.png);
+    background-size: contain;
+    background-color: gainsboro;
+}
+
+.entity-block {
+    background-image: url(wooden.png);
+    background-size: contain;
+}
+
+.entity-block-goal{
+    background-image: url(completed.png);
+    background-size: contain;
+    background-color: gainsboro;
+}
+
+.entity-player-completed {
+
+        background-image: url(player_completed.png);
+        background-size: contain;
+        background-color: gainsboro;
+}
+
+
+
